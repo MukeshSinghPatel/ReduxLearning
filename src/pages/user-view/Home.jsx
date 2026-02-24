@@ -10,14 +10,14 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-background">
 
-      <section className="flex flex-col items-center justify-center text-center py-20 px-6 bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
+      <section className="flex flex-col items-center justify-center text-center py-20 px-6 bg-linear-to-r from-blue-600 to-indigo-700 text-white">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
           Welcome{user?.UserName ? `, ${user.UserName}` : ""} 👋
         </h1>
         <p className="text-lg md:text-xl mb-6 max-w-2xl">
           Find your dream job with Apna Jobs. Search thousands of job listings
           from top companies.
-        </p>
+        </p> 
         <div className="flex gap-4">
           <Button
             className="bg-white text-blue-700 hover:bg-gray-200"
