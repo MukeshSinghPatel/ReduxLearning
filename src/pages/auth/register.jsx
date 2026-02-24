@@ -43,7 +43,7 @@ const AuthRegister = () => {
     existingUser.push(formData);
     localStorage.setItem("users", JSON.stringify(existingUser));
 
-    dispatch(setUser(formData));
+    // dispatch(setUser(formData));
 
     navigate('/auth/login');
 

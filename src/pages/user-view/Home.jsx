@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-background">
 
-      <section className="flex flex-col items-center justify-center text-center py-20 px-6 bg-linear-to-r from-blue-600 to-indigo-700 text-white">
+      <section className="flex flex-col items-center justify-center text-center py-20 px-6 bg-black text-white">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
           Welcome{user?.UserName ? `, ${user.UserName}` : ""} 👋
         </h1>
